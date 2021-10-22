@@ -21,6 +21,7 @@ formulario.addEventListener("submit", (e) => {
   }
   MOstrar();
 
+  formulario.reset()
   e.preventDefault();
 });
 
